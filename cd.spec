@@ -5,7 +5,7 @@ Summary:	CGM Draw library and tools
 Summary(pl):	Biblioteka i narzêdzia CGM Draw
 Name:		cd
 Version:	1.3
-Release:	1
+Release:	2
 License:	free (see cd.html)
 Group:		Libraries
 Source0:	http://www.pa.msu.edu/ftp/pub/unix/%{name}%{version}.tar.gz
@@ -66,6 +66,11 @@ Ten pakiet zawiera plik nag³ówkowy i statyczn± bibliotekê CGM Draw.
 %setup -q -n %{name}%{version}
 
 %build
+# libcd is used in plplot shared module - needs PIC
+%{__make} libcd.a \
+	CC="%{__cc}" \
+	CFLAGS="%{rpmcflags} -fPIC -Wall -pedantic"
+
 %{__make} \
 	CC="%{__cc}" \
 	CFLAGS="%{rpmcflags} -Wall -pedantic"
