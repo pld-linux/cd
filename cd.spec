@@ -2,7 +2,7 @@
 # TODO: shared/static scheme
 # (if something more than plplot driver uses it, little sense otherwise...)
 Summary:	CGM Draw library and tools
-Summary(pl.UTF-8):   Biblioteka i narzędzia CGM Draw
+Summary(pl.UTF-8):	Biblioteka i narzędzia CGM Draw
 Name:		cd
 Version:	1.3
 Release:	2
@@ -35,7 +35,7 @@ się zbiorów danych (takich jak odpowiedzi na zapytania do baz danych).
 
 %package devel
 Summary:	Header file and static CGM Draw library
-Summary(pl.UTF-8):   Pliki nagłówkowe i statyczna biblioteka CGM Draw
+Summary(pl.UTF-8):	Pliki nagłówkowe i statyczna biblioteka CGM Draw
 Group:		Development/Libraries
 
 %description devel
