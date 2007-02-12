@@ -2,7 +2,7 @@
 # TODO: shared/static scheme
 # (if something more than plplot driver uses it, little sense otherwise...)
 Summary:	CGM Draw library and tools
-Summary(pl):	Biblioteka i narzêdzia CGM Draw
+Summary(pl.UTF-8):   Biblioteka i narzÄ™dzia CGM Draw
 Name:		cd
 Version:	1.3
 Release:	2
@@ -23,19 +23,19 @@ rectangles, polygons, and text. CGM Draw is ideal for creating CGM
 files on the fly when you have a rapidly changing data set (such as in
 response to database queries.)
 
-%description -l pl
-CGM Draw to wolnodostêpna biblioteka do generowania plików CGM z
-poziomu programu w C. By³a testowana pod Solarisem, Ultriksem,
+%description -l pl.UTF-8
+CGM Draw to wolnodostÄ™pna biblioteka do generowania plikÃ³w CGM z
+poziomu programu w C. ByÅ‚a testowana pod Solarisem, Ultriksem,
 Linuksem, IRIX-em, AIX-em, OpenVMS-em oraz DOS-em. CGM (Computer
 Graphics Metafile) to wektorowy format graficzny czytany przez wiele
-popularnych pakietów. Przy pomocy CGM Draw kod mo¿e szybko rysowaæ
-obrazki z linii, ³uków, prostok±tów, wielok±tów oraz tekstu. CGM Draw
-sprawdza siê przy tworzeniu plików CGM w locie z szybko zmieniaj±cych
-siê zbiorów danych (takich jak odpowiedzi na zapytania do baz danych).
+popularnych pakietÃ³w. Przy pomocy CGM Draw kod moÅ¼e szybko rysowaÄ‡
+obrazki z linii, Å‚ukÃ³w, prostokÄ…tÃ³w, wielokÄ…tÃ³w oraz tekstu. CGM Draw
+sprawdza siÄ™ przy tworzeniu plikÃ³w CGM w locie z szybko zmieniajÄ…cych
+siÄ™ zbiorÃ³w danych (takich jak odpowiedzi na zapytania do baz danych).
 
 %package devel
 Summary:	Header file and static CGM Draw library
-Summary(pl):	Pliki nag³ówkowe i statyczna biblioteka CGM Draw
+Summary(pl.UTF-8):   Pliki nagÅ‚Ã³wkowe i statyczna biblioteka CGM Draw
 Group:		Development/Libraries
 
 %description devel
@@ -50,17 +50,17 @@ response to database queries.)
 
 This package contains the header file and static CGM Draw library.
 
-%description devel -l pl
-CGM Draw to wolnodostêpna biblioteka do generowania plików CGM z
-poziomu programu w C. By³a testowana pod Solarisem, Ultriksem,
+%description devel -l pl.UTF-8
+CGM Draw to wolnodostÄ™pna biblioteka do generowania plikÃ³w CGM z
+poziomu programu w C. ByÅ‚a testowana pod Solarisem, Ultriksem,
 Linuksem, IRIX-em, AIX-em, OpenVMS-em oraz DOS-em. CGM (Computer
 Graphics Metafile) to wektorowy format graficzny czytany przez wiele
-popularnych pakietów. Przy pomocy CGM Draw kod mo¿e szybko rysowaæ
-obrazki z linii, ³uków, prostok±tów, wielok±tów oraz tekstu. CGM Draw
-sprawdza siê przy tworzeniu plików CGM w locie z szybko zmieniaj±cych
-siê zbiorów danych (takich jak odpowiedzi na zapytania do baz danych).
+popularnych pakietÃ³w. Przy pomocy CGM Draw kod moÅ¼e szybko rysowaÄ‡
+obrazki z linii, Å‚ukÃ³w, prostokÄ…tÃ³w, wielokÄ…tÃ³w oraz tekstu. CGM Draw
+sprawdza siÄ™ przy tworzeniu plikÃ³w CGM w locie z szybko zmieniajÄ…cych
+siÄ™ zbiorÃ³w danych (takich jak odpowiedzi na zapytania do baz danych).
 
-Ten pakiet zawiera plik nag³ówkowy i statyczn± bibliotekê CGM Draw.
+Ten pakiet zawiera plik nagÅ‚Ã³wkowy i statycznÄ… bibliotekÄ™ CGM Draw.
 
 %prep
 %setup -q -n %{name}%{version}
