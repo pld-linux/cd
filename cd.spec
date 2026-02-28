@@ -5,7 +5,7 @@ Summary:	CGM Draw library and tools
 Summary(pl.UTF-8):	Biblioteka i narzędzia CGM Draw
 Name:		cd
 Version:	1.3
-Release:	3
+Release:	4
 License:	free (see cd.html)
 Group:		Libraries
 Source0:	http://www.pa.msu.edu/ftp/pub/unix/%{name}%{version}.tar.gz
